@@ -24,4 +24,4 @@ v1.0 - 2023-01-04
 - Functional script to fetch all boards of an organization, their lists, cards (with attachments), actions, custom fields, checklists and members
 
 # Feedback
-You found a bug? You need a new feature? You can [create an issue](https://github.com/pgrimaud/instagram-user-feed/issues) if needed or contact me on [Twitter](https://twitter.com/pgrimaud_).
+You found a bug? You need a new feature? You can [create an issue](https://github.com/aroy314/export-trello-boards/issues) if needed or contact me on [Twitter](https://twitter.com/aroy314).

@@ -2,10 +2,9 @@
   "name": "exporttrelloboards",
   "version": "1.0.0",
   "scripts": {
-    "export": "node exportTrelloBoards.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "export": "node exportTrelloBoards.js"
   },
-  "author": "",
+  "author": "Alexandre Roy",
   "license": "ISC",
   "dependencies": {
     "mkdirp": "^1.0.4",
