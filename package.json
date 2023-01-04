@@ -1,0 +1,14 @@
+{
+  "name": "exporttrelloboards",
+  "version": "1.0.0",
+  "scripts": {
+    "export": "node exportTrelloBoards.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mkdirp": "^1.0.4",
+    "trello": "^0.11.0"
+  }
+}
