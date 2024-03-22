@@ -36,14 +36,14 @@ const checkAccess = name =>
 
 const pad2 = (n) => n.toString().padStart(2, '0')
 
-const writeExport = boards => {
-	// todo write each board in a JSON file in the folder /export/YYYY-MM-DD/board.name.json
-	//create folders if no exists
+const writeExport = (organizationId, boards) => {
+	// write each board in a JSON file in the folder /export/YYYY-MM-DD/organizationId/board.name.json
+	// create folders if no exists
 	const today = new Date(),
 		YYYY = today.getFullYear(),
 		MM = pad2(today.getMonth() + 1),
 		DD = pad2(today.getDate()),
-		todayRelativePath = path.join('export', `${YYYY}-${MM}-${DD}`)
+		todayRelativePath = path.join('export', `${YYYY}-${MM}-${DD}`, organizationId)
 
 	return checkAccess(todayRelativePath)
 		.catch(err => {
